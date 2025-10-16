@@ -11,14 +11,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="9.0.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="9.0.0" />
     <PackageReference Include="Marten" Version="8.13.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Products\DeleteProduct\" />
-    <Folder Include="Products\GetProductByCategory\" />
-    <Folder Include="Products\UpdateProduct\" />
   </ItemGroup>
 
   <ItemGroup>
